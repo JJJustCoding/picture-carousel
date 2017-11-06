@@ -1,0 +1,32 @@
+.roller {
+  width: 200px;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.container {
+  font-size: 0;
+  width: 1000px;
+  position: relative;
+}
+
+img {
+  width: 200px;
+}
+
+.button-wrapper {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  display: flex;
+}
+
+.button {
+  width: 20px;
+  height: 20px;
+  background-color: lightgray;
+  margin-right: 5px;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+}
